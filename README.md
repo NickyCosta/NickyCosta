@@ -6,20 +6,24 @@
 
 I'm a Computer Science student at PUC Minas, in Brazil, and I work as a Data Labeler at IVEX, a European startup building technology for ADAS (advanced driver assistance systems).
 
-My work started with annotating images for computer vision models. Over time it grew to include building the Python pipelines that prepare those datasets and training the models themselves. I'm interested in Machine Learning, Computer Vision and the data work that makes models usable, and that is the direction I'm building my skills in.
+My work is annotating images for computer vision models, and I have built internal tools that make that annotation easier. I'm interested in Machine Learning, Computer Vision and the data work that makes models usable, and that is the direction I'm building my skills in.
 
 Before IVEX, I worked in technical support for public management systems, which taught me how to write clear bug reports for developers.
 
 <p align="center"><img src="./assets/divider.svg" alt="" width="100%"></p>
 
-## What I can do
+## What I do
 
-- **Train and evaluate detection and segmentation models.** Custom datasets with the YOLO family (YOLOv8, YOLO11) and Faster R-CNN, including a road segmentation model and a traffic sign detector that I moved from Faster R-CNN to YOLOv8, evaluated with mAP.
-- **Build dataset pipelines.** Image deduplication with ResNet-18 embeddings and FAISS, run in shards with checkpoints so hundreds of thousands of images do not crash the machine, plus an automated funnel that prepares data before training.
-- **Make annotation faster.** Model-assisted labeling in CVAT with models served through Nuclio, and a scripted setup that brings the whole stack up from one shortcut.
-- **Build labeling tools.** A stylus-first web client for outlining road surface on a tablet: a FastAPI backend, a TypeScript frontend, two-way sync with CVAT, an offline mode and a COCO backup of the day's work. Roughly 5,700 lines of source and 2,600 lines of tests. I also built a smaller tool for flagging doubtful frames and exporting them in the team's format.
+- Annotate images for computer vision models in CVAT.
+- Build tools that make annotation easier. One is a stylus-first web client for outlining road surface on a tablet, with a FastAPI backend, a TypeScript frontend, two-way sync with CVAT, an offline mode and a COCO backup of the day's work. Another is a smaller tool for flagging doubtful frames and exporting them in the team's format.
 
 This work was done for a company, so the code and data are not public.
+
+## What I know
+
+- Object detection and segmentation with the YOLO family (YOLOv8, YOLO11) and Faster R-CNN.
+- Preparing and deduplicating image datasets with embeddings (ResNet-18) and FAISS.
+- Model-assisted labeling in CVAT, with models served through Nuclio.
 
 ## Experience
 
@@ -49,7 +53,7 @@ This work was done for a company, so the code and data are not public.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48">
 </p>
 
-Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, GitHub, AWS S3, WSL2 and CUDA. TypeScript, HTML, CSS, Vite and FastAPI come from the labeling tool, whose interface uses plain TypeScript and the DOM. React and JavaScript come from a coursework project.
+Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, GitHub, AWS S3 and CUDA. TypeScript, HTML, CSS, Vite and FastAPI come from the labeling tool, whose interface uses plain TypeScript and the DOM. React and JavaScript come from a coursework project.
 
 <!--
 FEATURED PROJECTS: uncomment this block when the first project is public.
@@ -88,6 +92,10 @@ that they load before leaving them on the profile.
 ## Education
 
 B.Sc. in Computer Science, PUC Minas (in progress)
+
+## Languages
+
+Portuguese (native), English (B1/B2), Italian (basic)
 
 ## Contact
 
