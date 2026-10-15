@@ -30,10 +30,18 @@ This work was done for a company, so the code and data are not public.
 ## Tools
 
 <p>
-  <img src="https://skillicons.io/icons?i=py,pytorch,opencv,pandas,docker,ubuntu,git,github,aws,js,react" alt="Python, PyTorch, OpenCV, Pandas, Docker, Ubuntu, Git, GitHub, AWS, JavaScript, React">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV" title="OpenCV" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas" title="Pandas" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" alt="Ubuntu" title="Ubuntu" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="48" height="48">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" title="React" width="48" height="48">
 </p>
 
-Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, AWS S3, WSL2 and CUDA. JavaScript and React come from a coursework project.
+Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, GitHub, AWS S3, WSL2 and CUDA. JavaScript and React come from a coursework project.
 
 <!--
 FEATURED PROJECTS: uncomment this block when the first project is public.
