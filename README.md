@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Nicolas Costa. Computer Science student working with Machine Learning and Computer Vision." width="100%">
+  <img src="./assets/banner.svg" alt="Nícolas Costa. Computer Science student working with Machine Learning and Computer Vision." width="100%">
 </p>
 
 ## About me

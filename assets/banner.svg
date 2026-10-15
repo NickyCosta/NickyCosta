@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="t d">
-  <title id="t">Nicolas Costa</title>
+  <title id="t">Nícolas Costa</title>
   <desc id="d">Computer Science student working with Machine Learning and Computer Vision, on an animated deep space background</desc>
   <defs>
     <radialGradient id="bg" cx="0.8" cy="0.5" r="1">
@@ -40,6 +40,6 @@
   <rect class="scan" x="790" y="50" width="26" height="190" fill="url(#scan)"/>
 
   <rect x="64" y="96" width="56" height="4" rx="2" fill="#F2B84B"/>
-  <text x="64" y="162" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#F4F8FB">Nicolas Costa</text>
+  <text x="64" y="162" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#F4F8FB">Nícolas Costa</text>
   <text x="64" y="206" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#B7CBDB">Computer Science student · Machine Learning · Computer Vision</text>
 </svg>
