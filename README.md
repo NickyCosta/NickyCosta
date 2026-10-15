@@ -16,7 +16,8 @@ Before IVEX, I worked in technical support for public management systems, which 
 
 - **Train and evaluate detection and segmentation models.** Custom datasets with the YOLO family (YOLOv8, YOLO11) and Faster R-CNN, including a road segmentation model and a traffic sign detector that I moved from Faster R-CNN to YOLOv8, evaluated with mAP.
 - **Build dataset pipelines.** Image deduplication with ResNet-18 embeddings and FAISS, run in shards with checkpoints so hundreds of thousands of images do not crash the machine, plus an automated funnel that prepares data before training.
-- **Make annotation faster.** Model-assisted labeling in CVAT with models served through Nuclio, a scripted setup that brings the whole stack up from one shortcut, and a small tool that lets labelers flag doubtful frames and export them in the format the team expects.
+- **Make annotation faster.** Model-assisted labeling in CVAT with models served through Nuclio, and a scripted setup that brings the whole stack up from one shortcut.
+- **Build labeling tools.** A stylus-first web client for outlining road surface on a tablet: a FastAPI backend, a TypeScript frontend, two-way sync with CVAT, an offline mode and a COCO backup of the day's work. Roughly 5,700 lines of source and 2,600 lines of tests. I also built a smaller tool for flagging doubtful frames and exporting them in the team's format.
 - **Find out why things break.** Tracked down a memory crash in a large embedding job, Docker networking problems between containers, and path bugs in download scripts.
 
 This work was done for a company, so the code and data are not public.
@@ -41,7 +42,7 @@ This work was done for a company, so the code and data are not public.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" title="React" width="48" height="48">
 </p>
 
-Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, GitHub, AWS S3, WSL2 and CUDA. JavaScript and React come from a coursework project.
+Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, GitHub, AWS S3, WSL2 and CUDA. TypeScript and FastAPI from the labeling tool. JavaScript and React come from a coursework project.
 
 <!--
 FEATURED PROJECTS: uncomment this block when the first project is public.
