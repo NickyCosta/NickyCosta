@@ -18,7 +18,7 @@
   <rect x="60.0" y="82" width="372.4" height="40" rx="8" fill="#1B4668" stroke="#3B6E94"/>
   <text x="74.0" y="107" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4F8FB">Support Analyst · Sonner Sistemas</text>
   <rect x="432.4" y="136" width="614.5" height="40" rx="8" fill="#0F5E5A" stroke="#3DD6C6"/>
-  <text x="446.4" y="161" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4F8FB">Data Labeler · IVEX (ADAS)</text>
+  <text x="446.4" y="161" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4F8FB">Data Labeler · IVEX</text>
   <line class="now" x1="1046.9" y1="62" x2="1046.9" y2="196" stroke="#F2B84B" stroke-width="2" stroke-dasharray="4 4"/>
   <text x="1046.9" y="56" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#F2B84B">Oct 2026</text>
 </svg>

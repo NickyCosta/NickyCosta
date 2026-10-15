@@ -6,23 +6,20 @@
 
 I'm a Computer Science student at PUC Minas, in Brazil, and I work as a Data Labeler at IVEX, a European startup building technology for ADAS (advanced driver assistance systems).
 
-My work started with annotating images for computer vision models. Over time it grew to include writing and maintaining the Python pipelines that prepare those datasets. I'm interested in Machine Learning, Computer Vision and the data work that makes models usable, and that is the direction I'm building my skills in.
+My work started with annotating images for computer vision models. Over time it grew to include building the Python pipelines that prepare those datasets and training the models themselves. I'm interested in Machine Learning, Computer Vision and the data work that makes models usable, and that is the direction I'm building my skills in.
 
 Before IVEX, I worked in technical support for public management systems, which taught me how to write clear bug reports for developers.
 
 <p align="center"><img src="./assets/divider.svg" alt="" width="100%"></p>
 
-## What I do at IVEX
+## What I can do
 
-- Annotate images with CVAT for object detection models
-- Develop and maintain Python pipelines to process and curate large image datasets
-- Write image deduplication routines for large datasets
-- Use Pandas to analyze and transform structured data inside those pipelines
-- Write scripts that move datasets to and from AWS S3
-- Investigate and fix performance and memory problems in data processing jobs
-- Work with PyTorch, OpenCV and detection models (YOLOv8, Faster R-CNN) in annotation and data analysis workflows
+- **Train and evaluate detection and segmentation models.** Custom datasets with the YOLO family (YOLOv8, YOLO11) and Faster R-CNN, including a road segmentation model and a traffic sign detector that I moved from Faster R-CNN to YOLOv8, evaluated with mAP.
+- **Build dataset pipelines.** Image deduplication with ResNet-18 embeddings and FAISS, run in shards with checkpoints so hundreds of thousands of images do not crash the machine, plus an automated funnel that prepares data before training.
+- **Make annotation faster.** Model-assisted labeling in CVAT with models served through Nuclio, a scripted setup that brings the whole stack up from one shortcut, and a small tool that lets labelers flag doubtful frames and export them in the format the team expects.
+- **Find out why things break.** Tracked down a memory crash in a large embedding job, Docker networking problems between containers, and path bugs in download scripts.
 
-The code and data from this work belong to the company, so none of it is published here.
+This work was done for a company, so the code and data are not public.
 
 ## Experience
 
@@ -30,15 +27,13 @@ The code and data from this work belong to the company, so none of it is publish
   <img src="./assets/timeline.svg" alt="Timeline: Support Analyst at Sonner Sistemas from August 2024 to June 2025, then Data Labeler at IVEX from June 2025 to present." width="100%">
 </p>
 
-## Tools I've used
+## Tools
 
-| Area | Tools |
-| --- | --- |
-| Language | Python |
-| Machine Learning and Computer Vision | PyTorch, OpenCV, YOLOv8, Faster R-CNN |
-| Data | Pandas |
-| Annotation | CVAT |
-| Infrastructure and workflow | Docker, Ubuntu/Linux, Git and GitHub, AWS S3 |
+<p>
+  <img src="https://skillicons.io/icons?i=py,pytorch,opencv,pandas,docker,ubuntu,git,github,aws,js,react" alt="Python, PyTorch, OpenCV, Pandas, Docker, Ubuntu, Git, GitHub, AWS, JavaScript, React">
+</p>
+
+Also: Ultralytics YOLO, Faster R-CNN, CVAT, FAISS, Nuclio, AWS S3, WSL2 and CUDA. JavaScript and React come from a coursework project.
 
 <!--
 FEATURED PROJECTS: uncomment this block when the first project is public.
