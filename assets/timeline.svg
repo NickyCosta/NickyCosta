@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="t d">
+  <title id="t">Experience timeline</title>
+  <desc id="d">Technical support analyst at Sonner Sistemas from August 2024 to June 2025, then Data Labeler at IVEX from June 2025 to present</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F33"/>
+      <stop offset="1" stop-color="#0E2D47"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes pulse { 0%,100% { opacity:.35 } 50% { opacity:1 } }
+    .now { animation:pulse 2.4s ease-in-out infinite }
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+  <rect width="1200" height="250" rx="14" fill="url(#bg)"/>
+  <text x="60" y="40" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F4F8FB">Experience</text>
+  <line x1="60.0" y1="70" x2="60.0" y2="196" stroke="#2A4560" stroke-width="1"/><text x="60.0" y="216" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B7CBDB">Aug 2024</text><line x1="246.2" y1="70" x2="246.2" y2="196" stroke="#2A4560" stroke-width="1"/><text x="246.2" y="216" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B7CBDB">Jan 2025</text><line x1="432.4" y1="70" x2="432.4" y2="196" stroke="#2A4560" stroke-width="1"/><text x="432.4" y="216" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B7CBDB">Jun 2025</text><line x1="693.1" y1="70" x2="693.1" y2="196" stroke="#2A4560" stroke-width="1"/><text x="693.1" y="216" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B7CBDB">Jan 2026</text><line x1="879.3" y1="70" x2="879.3" y2="196" stroke="#2A4560" stroke-width="1"/><text x="879.3" y="216" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B7CBDB">Jun 2026</text><line x1="1102.8" y1="70" x2="1102.8" y2="196" stroke="#2A4560" stroke-width="1"/><text x="1102.8" y="216" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B7CBDB">Dec 2026</text>
+  <rect x="60.0" y="82" width="372.4" height="40" rx="8" fill="#1B4668" stroke="#3B6E94"/>
+  <text x="74.0" y="107" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4F8FB">Support Analyst · Sonner Sistemas</text>
+  <rect x="432.4" y="136" width="614.5" height="40" rx="8" fill="#0F5E5A" stroke="#3DD6C6"/>
+  <text x="446.4" y="161" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#F4F8FB">Data Labeler · IVEX (ADAS)</text>
+  <line class="now" x1="1046.9" y1="62" x2="1046.9" y2="196" stroke="#F2B84B" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="1046.9" y="56" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#F2B84B">Oct 2026</text>
+</svg>
