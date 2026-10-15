@@ -18,7 +18,6 @@ Before IVEX, I worked in technical support for public management systems, which 
 - **Build dataset pipelines.** Image deduplication with ResNet-18 embeddings and FAISS, run in shards with checkpoints so hundreds of thousands of images do not crash the machine, plus an automated funnel that prepares data before training.
 - **Make annotation faster.** Model-assisted labeling in CVAT with models served through Nuclio, and a scripted setup that brings the whole stack up from one shortcut.
 - **Build labeling tools.** A stylus-first web client for outlining road surface on a tablet: a FastAPI backend, a TypeScript frontend, two-way sync with CVAT, an offline mode and a COCO backup of the day's work. Roughly 5,700 lines of source and 2,600 lines of tests. I also built a smaller tool for flagging doubtful frames and exporting them in the team's format.
-- **Find out why things break.** Tracked down a memory crash in a large embedding job, Docker networking problems between containers, and path bugs in download scripts.
 
 This work was done for a company, so the code and data are not public.
 
@@ -85,4 +84,3 @@ B.Sc. in Computer Science, PUC Minas (in progress)
 ## Contact
 
 - LinkedIn: [linkedin.com/in/nicolas-bc](https://www.linkedin.com/in/nicolas-bc)
-- Location: Poços de Caldas, Minas Gerais, Brazil
